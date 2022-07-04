@@ -4,9 +4,9 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: { 1: "#CEDDF9", 2: "#4488EE", 3: "#306BC5" },
+                primary: { 1: "#CEDDF9", 2: "#3463bb", 3: "#112a77" },
                 light: { 1: "#F7F7FF" },
-                dark: { 1: "#484444", 2: "#242424" },
+                dark: { 1: "#616e7f", 2: "#242424" },
             },
             fontFamily: {
                 main: "Inter, sans-serif",
@@ -14,12 +14,13 @@ module.exports = {
         },
 
         boxShadow: {
-            blueMD: "0 0 20px #4488EE",
+            blueMD: "0 0 8px #3463bb",
             blueSM: "0 0 16px #CEDDF9",
-            blueLG: "0 0 24px #306BC5",
+            blueLG: "0 0 24px #112a77",
         },
         dropShadow: {
-            white: "0 0px 10px #5559CE50",
+            1: "0 0px 10px #00000090",
+            2: "-18px 10px 10px #34343454",
         },
         screens: {
             mb: "390px",
@@ -38,7 +39,7 @@ module.exports = {
         themes: [
             {
                 mytheme: {
-                    primary: "#4488EE",
+                    primary: "#3463bb",
 
                     secondary: "#60dbaa",
 

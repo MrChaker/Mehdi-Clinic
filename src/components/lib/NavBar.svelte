@@ -12,7 +12,7 @@
 </script>
 
 <nav
-    class={`bg-light-1  ${padding} fixed w-full top-0 left-0 text-dark-1 z-50`}
+    class={`bg-light-1 bg-transparent  ${padding} fixed w-full top-0 left-0  z-50`}
 >
     <div class=" flex flex-wrap justify-between items-center mx-auto">
         <a href="/" class="flex items-center">
@@ -22,7 +22,9 @@
             >
         </a>
         <div class="flex md:order-2">
-            <button type="button" class="btn btn-primary text-light-1"
+            <button
+                type="button"
+                class="btn btn-primary text-light-1 hidden md:inline-flex"
                 >Get started</button
             >
             <button

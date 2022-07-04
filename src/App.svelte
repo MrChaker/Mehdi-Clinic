@@ -7,7 +7,7 @@
 </script>
 
 <main
-    class={`${padding} bg-light-1 min-h-screen text-dark-1 font-medium font-main`}
+    class={`${padding}  min-h-screen text-slate-900 font-normal font-main bg-slate-100`}
 >
     <NavBar {padding} />
 
@@ -15,4 +15,7 @@
 </main>
 
 <style>
+    /* main {
+        background-image: linear-gradient(120deg, #306bc55e, #e8ecec, #f7f7ff);
+    } */
 </style>
